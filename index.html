@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+
+  <body
+    style="display: flex; justify-content: center; background-color: #848484"
+  >
+    <section
+      class="container"
+      style="
+        width: 400px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        border-radius: 10px;
+        padding: 20px;
+      "
+    >
+      <h1>Todo app</h1>
+      <div style="display: flex; align-items: center; gap: 10px">
+        <input
+          class="add-input"
+          style="
+            padding: 5px;
+            height: 30px;
+            font-size: 20px;
+            border: 2px solid black;
+            border-radius: 5px;
+          "
+          type="text"
+          placeholder="Add your new todo"
+        />
+        <img
+          class="add-btn"
+          style="background-color: purple; padding: 10px"
+          width="20px"
+          src="plus-symbol-button.png"
+          alt=""
+        />
+      </div>
+      <div
+        class="tasks"
+        style="
+          gap: 10px;
+          display: flex;
+          flex-direction: column;
+          width: 80%;
+          align-items: center;
+          margin-top: 20px;
+        "
+      >
+        <!-- <div 
+          style="
+            font-family: sans-serif;
+            padding-left: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            background: #cacaca;
+            width: 100%;
+            justify-content: space-between;
+          "
+        >
+          Buy new laptop gaming
+          <div
+            style="
+              background-color: rebeccapurple;
+              padding: 5px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <img width="30px" height="30px" src="trash-bin (1).png" alt="" />
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <script src="script.js"></script>
+    
+  </body>
+</html>
