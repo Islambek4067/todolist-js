@@ -39,7 +39,7 @@ addBtn.addEventListener("click", () => {
   addInput.value = "";
   for (let i = 0; i < deleteBtn.length; i++) {
     deleteBtn[i].addEventListener("click", () => {
-      textTask[i].classList.add("crossed");
+      textTask[i].classList.toggle("crossed");
     });
   }
 });
