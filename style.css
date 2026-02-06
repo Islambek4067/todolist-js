@@ -1,0 +1,11 @@
+.styleInput::placeholder{
+  color: red;
+  opacity: 0.6;
+}
+.styleInput{
+  border: 2px solid red !important;
+}
+
+.hidden{
+  display: none;
+}
